@@ -13,3 +13,7 @@
     height:300px;
     overflow-y: scroll;
 }
+
+.lowjumbo{
+    background: linear-gradient(to right,rgba(46, 44, 44, 0.5),rgba(165, 163, 163, 0.5) )
+}
