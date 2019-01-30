@@ -1,6 +1,6 @@
 .bg-img{
     background-image: url('http://ncmm.org/wordpress/wp-content/uploads/2016/07/jumbotron2-1024x384.jpg');
-    
+    height: 60px;
 }
 
 .iconos{
@@ -14,6 +14,12 @@
     overflow-y: scroll;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 .lowjumbo{
     background: linear-gradient(to right,rgba(46, 44, 44, 0.5),rgba(165, 163, 163, 0.5) )
 }
+
+.login_hover { background-color: rgba(165, 163, 163, 0.5); }
