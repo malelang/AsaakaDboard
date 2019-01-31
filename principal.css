@@ -28,3 +28,26 @@
 }
 
 .login_hover { background-color: rgba(165, 163, 163, 0.5); }
+
+@media only screen and (max-width: 700px){
+    .boton-login span{
+        display: none;
+    }
+    .boton-login::after{
+        width: 30px;
+        height: 30px;
+        font-family: 'Font Awesome 5 Free';
+        content: '\f2f6';
+        font-weight: 900
+    }   
+}
+
+@media only screen and (max-width: 817px){
+    .titulo{
+        font-size:20px;
+    }
+    .cont{
+        height:55px;
+    }
+}
+

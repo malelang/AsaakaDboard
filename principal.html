@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="principal.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
@@ -19,39 +20,48 @@
 </head>
 <body>
 
-    
-<div class="jumbotron-fluid text-center bg-img" style="margin-bottom:0; padding-top: 10px; padding-left: 10px" >
-    <div class="container row">
-        <h3 class="text-white" style="text-align:left">Asaaka Dashboard</h3> 
-        <button type="button" id="btnlogin" class="btn btn-light " data-toggle="modal" data-target="#myModal" style="position: absolute; right:0">
-            Login / Registrarse
-        </button>
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog modal-md modal-dialog-centered">
-              <div class="modal-content">
-          
-                <div class="modal-header">
-                  <h4 class="modal-title">Registrate en Asaaka con:</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-    
-                <div class="modal-body">
-                    <div class="img-group">
-                        <img src="https://www.clipartmax.com/png/small/136-1368955_social-media-color-fb-logo-png.png" alt="fb" width="40px" height="40px" onclick="window.location.href ='conversaciones.html'">
-                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="git" width="40px" height="40px" onclick="DoSomething(2)">
-                        <img src="https://banner2.kisspng.com/20180612/llj/kisspng-google-logo-google-search-google-doodle-circular-economy-5b2082fe438318.3928951115288573422766.jpg" alt="gmail" width="60px" height="40px" onclick="DoSomething(3)">
-                        <img src="https://www.clipartmax.com/png/small/66-666891_twitter-square-logo-png.png" alt="twit" width="40px" height="40px" onclick="DoSomething(4)">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <h5>Ya tienes una cuenta? Ingresa <a href="login.html" alt="#">aquí</a></h5>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-          
+  
+<div class="jumbotron-fluid text-center bg-img" style="margin-bottom:0; padding-top: 5px" >
+    <div class="container-fluid cont">
+        <div class="row">
+            <div class="col-4">
+                <h3 class="text-white titulo">Asaaka Dashboard</h3> 
             </div>
+        
+            <div class="col-4 ">
+                <span class="float-right">
+                    <button type="button" id="btnlogin" class="btn btn-light float-right boton-login" data-toggle="modal" data-target="#myModal" >
+                        <span>Login / Registrarse</span>
+                    </button>
+                </span>
+            </div>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-md modal-dialog-centered">
+                    <div class="modal-content">
+                
+                    <div class="modal-header">
+                        <h4 class="modal-title">Registrate en Asaaka con:</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+        
+                    <div class="modal-body">
+                        <div class="img-group">
+                            <img src="https://www.clipartmax.com/png/small/136-1368955_social-media-color-fb-logo-png.png" alt="fb" width="40px" height="40px" onclick="window.location.href ='conversaciones.html'">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="git" width="40px" height="40px" onclick="DoSomething(2)">
+                            <img src="https://banner2.kisspng.com/20180612/llj/kisspng-google-logo-google-search-google-doodle-circular-economy-5b2082fe438318.3928951115288573422766.jpg" alt="gmail" width="60px" height="40px" onclick="DoSomething(3)">
+                            <img src="https://www.clipartmax.com/png/small/66-666891_twitter-square-logo-png.png" alt="twit" width="40px" height="40px" onclick="DoSomething(4)">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <h5>Ya tienes una cuenta? Ingresa <a href="login.html" alt="#">aquí</a></h5>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                
+                </div>
+            </div>
+        
         </div>
-        </div>
-      </div>
+    </div>
   
 </div>
 
