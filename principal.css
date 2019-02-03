@@ -50,4 +50,10 @@
         height:55px;
     }
 }
-
+/*
+@media only screen and (max-width: 768px){
+    .title-dev{
+        font-size: 20px;
+    }
+}
+*/
