@@ -51,17 +51,11 @@
         height:55px;
     }
 }
-.footer {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding-left: 7px;
-    height: 70px;
-    background-color: rgba(165, 163, 163, 0.5);
 
-    
-}  
+.btn-info{
+    position: relative;
+    left: 10px;
+}
 
 #footer {
     position: fixed;
@@ -71,12 +65,8 @@
     background:rgba(165, 163, 163, 0.5);
  }
 
-
-
 @media only screen and (max-width: 768px){
-    
     #footer {
-
         position:relative;
     }
 }
